@@ -113,7 +113,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/locker/complete?transaksiId=202",
+					"raw": "http://localhost:8080/locker/complete?transaksiId=402",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -126,7 +126,7 @@
 					"query": [
 						{
 							"key": "transaksiId",
-							"value": "202"
+							"value": "402"
 						}
 					]
 				}
@@ -140,7 +140,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"noLoker\": 4,\r\n    \"password\": '6ObnwvBZ'\r\n}",
+					"raw": "{\r\n    \"noLoker\": 4,\r\n    \"password\": \"ygSlrfuK\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -169,7 +169,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"noLoker\": 4,\r\n    \"password\": '6ObnwvBZ'\r\n}",
+					"raw": "{\r\n    \"noLoker\": 4,\r\n    \"password\": \"ygSlrfuK\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -177,7 +177,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/locker/simpan",
+					"raw": "http://localhost:8080/locker/ambil",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -185,7 +185,7 @@
 					"port": "8080",
 					"path": [
 						"locker",
-						"simpan"
+						"ambil"
 					]
 				}
 			},
